@@ -9,7 +9,7 @@ PHP: Versão 7 ou acima | oizumi-junho/data-e-hora-php: Qualquer versão
 ```
 
     "require": {
-        "oizumi-junho/data-e-hora-php": "*.*.*",
+        "oizumi-junho/data-e-hora-php": "dev-master",
         "php": ">=7.0"
     }
 
