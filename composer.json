@@ -1,0 +1,23 @@
+{
+    "name": "oizumi-junho/data-e-hora-php",
+    "description": "Criado para facilitar a manipulação de data e hora",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "Oizumi Junho",
+        "email": "oizumijunho@gmail.com",
+        "role": "Developer"
+    }],
+    "autoload": {
+        "psr-4": {
+            "OizumiJunho\\DataEHora\\": "src/DataEHora"
+        },
+        "files": [
+            "src/DataEHora/Config.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
