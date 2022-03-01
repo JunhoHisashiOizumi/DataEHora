@@ -67,7 +67,7 @@ class DataEHora
         endif;
     }
 
-    public static function ValidarDataAAAAMMDD($dados, $format = 'Y/m/d')
+    public static function ValidarDataAAAAMMDD($dados, $format = 'Y-m-d')
     {
         $d = DateTime::createFromFormat($format, $dados);
         $result = $d && $d->format($format) == $dados;
