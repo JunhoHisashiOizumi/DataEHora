@@ -173,9 +173,9 @@ class DataEHora
         return date("Y");
     }
 
-    public static function GerarDiaDaSemana()
+    public static function GerarUltimoDiaDoMes($mes)
     {
-        return date("l");
+        return date("t", mktime(0, 0, 0, $mes, '01', date("Y")));
     }
 
     public static function ConverterDDMMAAAAParaAAAAMMDD($dados)

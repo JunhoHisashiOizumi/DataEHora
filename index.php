@@ -23,3 +23,5 @@ echo DataEHora::GerarHoraHH();
 echo DataEHora::GerarHoraMM();
 
 echo DataEHora::GerarHoraSS();
+
+echo DataEHora::GerarUltimoDiaDoMes(4);
